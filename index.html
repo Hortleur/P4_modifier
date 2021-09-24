@@ -31,13 +31,15 @@
 
 		<!-- bloc-1-presentation -->
 		<section class="section_logo_presentation b-parallax">
+			<div>
 				<img src="img/logo.png" alt=" Logo La chouette agence" />
 				<h1 class="text-center hero-bloc-text tc-white ">
 					La chouette agence.
 				</h1>
-				<div class="text-center">
+				<div class="bouton_contact">
 					<a href="#contact" class="btn btn-lg btn-rd" id="cta-hero">CONTACT</a>
 				</div>
+			</div>
 		</section>
 		<!-- bloc-1-presentation END -->
 
@@ -108,89 +110,117 @@
 		<!-- bloc-3-what-i-do END -->
 
 		<!-- bloc-4-portfolio -->
-		<div class="">
-			<div class="">
-				<div class="">
+		<section class="portfolio">
+			<div class="bloc_cards">
+				<div class="card_presentation">
 					<p>
 						Nous travaillons avec beaucoup de clients, voici nos réalisations.
 					</p>
 				</div>
-				<div class="">
-					<div class="">
-						<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="" class="img-responsive portfolio-thumb" /></a>
-						<h3 class="">
+				<div class="cards">
+					<div class="card_img">
+						<img src="img/livres.jpg" alt="Photos de Journaux">
+					</div>
+					<div class="card_desc">
+						<h3>
 							Refonte d'un site web pour un journal local
 						</h3>
-						<p class="">
+						<p>
 							Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
 						</p>
 					</div>
-					<div class="">
-						<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="" /></a>
-						<h3 class="">
+				</div>
+				<div class="cards">
+					<div class="card_img">
+						<img src="img/photo.jpg" alt="Femme qui prend une photo">
+					</div>
+					<div class="card_desc">
+						<h3>
 							Création d'un site web pour photographes
 						</h3>
-						<p class="">
+						<p>
 							Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
 						</p>
 					</div>
 				</div>
-				<div class="">
-					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt=""/></a>
-						<h3 class="">
+				<div class="cards">
+					<div class="card_img">
+						<img src="img/appareils.bmp" alt="Multitude d'appareils">
+					</div>
+					<div class="card_desc">
+						<h3>
 							Création d'un site internet pour un voyageur
 						</h3>
-						<p class="">
+						<p>
 							Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.
 						</p>
 					</div>
-					<div class="">
-						<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="" /></a>
-						<h3 class="">
+				</div>
+				<div class="cards">
+					<div class="card_img">
+						<img src="img/table.bmp" alt="table de travail">
+					</div>
+					<div class="card_desc"></div>
+						<h3>
 							Conception d'un site pour une agence de mariage
 						</h3>
-						<p class="">
+						<p>
 							Nous avons travaillé avec cette agence pour créer un site internet permettant la présentation détaillée de leurs prestations.
 						</p>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- bloc-4-portfolio END -->
 
 		<!-- bloc-5-cta -->
 		<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="contact">
 			<div class="container bloc-lg">
 				<div class="row">
-					<h2 class="mg-md text-center tc-white">
-						Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
-					</h2>
-
-					<form action="">
-						<div>
-							<label for="">Nom</label>
-							<input type="text" name="Nom" id="Nom">
-							<label for="">Entrez Votre Nom</label>
+					<form class="form-horizontal">
+						<fieldset>
+						
+						<!-- Form Name -->
+						<legend>Prêt pour redonner vie à votre projet ? Contactez notre équipe !</legend>
+						
+						<!-- Text input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="textinput">Nom</label>  
+						  <div class="col-md-4">
+						  <input id="textinput" name="textinput" type="text" placeholder="Nom" class="form-control input-md">
+						  <span class="help-block">Entrez votre nom</span>  
+						  </div>
 						</div>
-						<div>
-							<label for="">Adresse E-mail</label>
-							<input type="email" name="email" id="email">
-							<Label>Entrez votre adresse E-mail</Label>
+						
+						<!-- Text input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="textinput">Adresse email</label>  
+						  <div class="col-md-4">
+						  <input id="textinput" name="textinput" type="email" placeholder="Example@sim.fr" class="form-control input-md">
+						  <span class="help-block">Entrez votre adresse email</span>  
+						  </div>
 						</div>
-						<div>
-							<label for="">Comment avez vous connu La Chouette agence</label>
-							<input type="text" name="" id="">
+						
+						<!-- Text input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="textinput">Comment nous avez-vous connu ?</label>  
+						  <div class="col-md-4">
+						  <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md">
+						  <span class="help-block">Indiquer nous comment vous nous avez connu.</span>  
+						  </div>
 						</div>
-						<div>
-							<label for="">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
-							<textarea name="" id="" cols="30" rows="10"></textarea>
+						
+						<!-- Textarea -->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="textarea">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
+						  <div class="col-md-4">                     
+							<textarea class="form-control" id="textarea" name="textarea" placeholder="Parlez nous de votre projet"></textarea>
+						  </div>
 						</div>
-						<div>
-							<label for="">Envoyer</label>
-							<input type="submit" value="Envoyer">
-						</div>
-					</form>
+						
+						</fieldset>
+						</form>
+						
 				</div>
 			</div>
 		</div>

@@ -8,9 +8,14 @@ header {
 }
 
 .section_logo_presentation {
+  padding: 15% 0;
+  background-image: url(../../img/la-chouette-agence-banniere.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.section_logo_presentation div {
   display: flex;
   flex-flow: column nowrap;
-  padding-top: 50%;
 }
 .section_logo_presentation img {
   width: 30%;
@@ -19,13 +24,13 @@ header {
 .section_logo_presentation h1 {
   color: #8E340B;
 }
-.section_logo_presentation div {
+.section_logo_presentation .bouton_contact {
   background-color: #8E340B;
   width: 50%;
   align-self: center;
   border-radius: 25px;
 }
-.section_logo_presentation div a {
+.section_logo_presentation .bouton_contact a {
   text-decoration: none;
   color: white;
 }
@@ -87,5 +92,21 @@ header {
     background-size: cover;
 }
 */
+/*portfolio*/
+.portfolio {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.cards {
+  border: 2px solid black;
+  margin: 20px 0;
+}
+.cards .card_img {
+  padding: 0;
+}
+.cards .card_desc {
+  padding: 0;
+}
 
 /*# sourceMappingURL=main.css.map */

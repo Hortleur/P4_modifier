@@ -10,9 +10,14 @@ header{
 
 .section_logo_presentation{
 
+    padding: 15% 0 ;
+    background-image: url(../../img/la-chouette-agence-banniere.jpg);
+    background-position: center;
+    background-size: cover;
+    div{
         display: flex;
-    flex-flow: column nowrap;
-    padding-top: 50%;
+        flex-flow: column nowrap;
+    }
     img{
         width: 30%;
         align-self: center;
@@ -20,7 +25,7 @@ header{
     h1{
         color: $tangerine;
     }
-    div{
+    .bouton_contact{
         background-color: $tangerine;
         width: 50%;
         align-self: center;
@@ -86,3 +91,19 @@ header{
 }
 */
 
+/*portfolio*/
+.portfolio{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.cards{
+    border: 2px solid black;
+    margin: 20px 0;
+    .card_img{
+        padding: 0;
+    }
+    .card_desc{
+        padding: 0;
+    }
+}
