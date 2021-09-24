@@ -1,0 +1,25 @@
+{
+  "name": "p4_modifier",
+  "version": "1.0.0",
+  "description": "p4 optimisé",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap-sass": "^3.4.1",
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch css/sass/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hortleur/P4_modifier.git"
+  },
+  "author": "BRUN Kevin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hortleur/P4_modifier/issues"
+  },
+  "homepage": "https://github.com/Hortleur/P4_modifier#readme"
+}

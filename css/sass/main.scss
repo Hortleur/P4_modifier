@@ -1,0 +1,88 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css");
+@import "variables/variable";
+
+/* logo*/
+header{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.section_logo_presentation{
+
+        display: flex;
+    flex-flow: column nowrap;
+    padding-top: 50%;
+    img{
+        width: 30%;
+        align-self: center;
+    }
+    h1{
+        color: $tangerine;
+    }
+    div{
+        background-color: $tangerine;
+        width: 50%;
+        align-self: center;
+        border-radius: 25px;
+        a{
+            text-decoration: none;
+        color: white;
+        }
+    }   
+}
+/*
+.b-parallax{
+    background-image: url(../../img/la-chouette-agence-banniere.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}*/
+
+/*présentation*/
+.presentation{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 100px;
+    h2{
+        text-align: center;
+    }
+}
+.presentation_items{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    text-align: center;
+    span{
+        font-size: 3.5em;
+        margin-top: 20px;
+    }
+    p{
+        font-size: 1.3em;
+    }
+}
+.commentaire_client{
+    margin-top: 20px;
+    text-align: center;
+    p{
+        font-size: 1.3em;
+    }
+    span{
+        font-size: 1.15em;
+    }
+}
+.objectif{
+    text-align: center;
+    margin-top: 100px;
+}
+/*
+.b-parallax1{
+    background-image: url(../../img/image-de-presentation.bmp);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+*/
+
