@@ -14,7 +14,7 @@ header{
 .section_logo_presentation{
 
     padding: 15% 0 ;
-    background-image: url(../../img/la-chouette-agence-banniere.jpg);
+    background-image: url(../../img/la-chouette-agence-banniere.webp);
     background-position: center;
     background-size: cover;
     div{
@@ -27,8 +27,6 @@ header{
     }
     h1{
         color: $tangerine;
-        font-weight: bold;
-        font-size: 1.8em;
         margin-bottom: 5px;
 
     }
@@ -45,7 +43,7 @@ header{
 }
 /*
 .b-parallax{
-    background-image: url(../../img/la-chouette-agence-banniere.jpg);
+    background-image: url(../../img/la-chouette-agence-banniere.webp);
     min-height: 500px;
     background-attachment: fixed;
     background-size: cover;
@@ -87,7 +85,7 @@ header{
 }
 .objectif{
     text-align: center;
-    background-image: url(../../img/image-de-presentation.bmp);
+    background-image: url(../../img/image-de-presentation.webp);
     .objectif_content{
         padding: 10px 20px;
         .objectif_title{
@@ -105,7 +103,7 @@ header{
 
 /*
 .b-parallax1{
-    background-image: url(../../img/image-de-presentation.bmp);
+    background-image: url(../../img/image-de-presentation.webp);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -132,17 +130,13 @@ header{
         border-bottom-left-radius: 18px;
         border-bottom-right-radius: 18px;
         font-size: 1em;
-        h3{
-            font-size: 1.4em;
-            font-weight: bold;
-        }
     }
 }
 
 
 /*form*/
 .form{
-    background-image: url(/img/la-chouette-agence-banniere.jpg);
+    background-image: url(/img/la-chouette-agence-banniere.webp);
     background-position: center;
     background-size: cover;
     form{
@@ -200,6 +194,10 @@ footer{
                     color: white;
                     font-size: 1.2em;
                     border-bottom: 1px solid $icones;
+                    font-weight: bold;
+                }
+                a:hover{
+                    color: $icones;
                 }
             }
         }

@@ -32,6 +32,21 @@
   content: "\e01c";
 }
 
+h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
 /* logo*/
 header {
   margin: 20px 20px;
@@ -40,7 +55,7 @@ header {
 
 .section_logo_presentation {
   padding: 15% 0;
-  background-image: url(../../img/la-chouette-agence-banniere.jpg);
+  background-image: url(../../img/la-chouette-agence-banniere.webp);
   background-position: center;
   background-size: cover;
 }
@@ -54,8 +69,6 @@ header {
 }
 .section_logo_presentation h1 {
   color: #cc4d13;
-  font-weight: bold;
-  font-size: 1.8em;
   margin-bottom: 5px;
 }
 .section_logo_presentation .bouton_contact {
@@ -71,7 +84,7 @@ header {
 
 /*
 .b-parallax{
-    background-image: url(../../img/la-chouette-agence-banniere.jpg);
+    background-image: url(../../img/la-chouette-agence-banniere.webp);
     min-height: 500px;
     background-attachment: fixed;
     background-size: cover;
@@ -115,7 +128,7 @@ header {
 
 .objectif {
   text-align: center;
-  background-image: url(../../img/image-de-presentation.bmp);
+  background-image: url(../../img/image-de-presentation.webp);
 }
 .objectif .objectif_content {
   padding: 10px 20px;
@@ -133,7 +146,7 @@ header {
 
 /*
 .b-parallax1{
-    background-image: url(../../img/image-de-presentation.bmp);
+    background-image: url(../../img/image-de-presentation.webp);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -159,14 +172,10 @@ header {
   border-bottom-right-radius: 18px;
   font-size: 1em;
 }
-.cards .card_desc h3 {
-  font-size: 1.4em;
-  font-weight: bold;
-}
 
 /*form*/
 .form {
-  background-image: url(/img/la-chouette-agence-banniere.jpg);
+  background-image: url(/img/la-chouette-agence-banniere.webp);
   background-position: center;
   background-size: cover;
 }
@@ -222,6 +231,10 @@ footer .partenaires ul li a {
   color: white;
   font-size: 1.2em;
   border-bottom: 1px solid #364577;
+  font-weight: bold;
+}
+footer .partenaires ul li a:hover {
+  color: #364577;
 }
 
 /*# sourceMappingURL=main.css.map */
