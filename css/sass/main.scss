@@ -15,6 +15,7 @@ header{
 
     padding: 15% 0 ;
     background-image: url(../../img/la-chouette-agence-banniere.webp);
+    background-color: black;
     background-position: center;
     background-size: cover;
     div{
@@ -37,7 +38,8 @@ header{
         border-radius: 25px;
         a{
             text-decoration: none;
-        color: rgb(255, 255, 255);
+            font-weight: bold;
+        color: white;
         }
     }   
 }
