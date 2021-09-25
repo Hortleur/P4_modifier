@@ -169,7 +169,7 @@ header{
 footer{
     padding: 10px 20px;
     text-align: center;
-    background-color: lighten($tangerine, 20);
+    background-color: $tangerine;
     h2{
         font-size: 1.5em;
         font-weight: bold;
