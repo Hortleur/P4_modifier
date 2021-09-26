@@ -10,7 +10,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch css/sass/main.scss css/main.css"
+    "sass": "sass --watch css/sass/main.scss css/main.css -w --style compressed",
+    "prefix": "postcss css/main.css --use autoprefixer -d css/prefixed/"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "author": "BRUN Kevin",
   "license": "ISC",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/Hortleur/P4_modifier/issues"
   },

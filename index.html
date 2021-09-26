@@ -6,31 +6,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 		<meta name="robot" content="follow">
 		<link rel="shortcut icon" type="image/png" href="favicon.jpg">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-		
-
 		<title>La Chouette Agence</title> 
 	</head>
 	<body>
-		<main>
+		<main role="main">
 			<header>
 				<picture>
 					<img src="img/la-chouette-agence.png" alt="Logo d'en-tête la chouette agence">
 				</picture>
 			</header>
 				<!--Présentation banniere-->
-			<section class="section_logo_presentation b-parallax">
+			<section class="section_logo_presentation b-parallax" role="banner">
 				<div>
 					<img src="img/logo.png" alt=" Logo La chouette agence" />
 					<h1 class="text-center hero-bloc-text tc-white ">
 						La chouette agence.
 					</h1>
 					<div class="bouton_contact">
-						<a href="#contact" class="btn btn-lg btn-rd" id="cta-hero">CONTACT</a>
+						<a href="#contact" class="bouton_contact" id="cta-hero">CONTACT</a>
 					</div>
 				</div>
 			</section>
@@ -160,16 +155,14 @@
 			</section>
 				<!--Formulaire de contact-->
 			<section class="form" id="contact">
-				<form class="form-horizontal needs-validation">
-					<fieldset>
-						
+				<form class="form-horizontal needs-validation">			
 						<!-- Form Name -->
-						<legend>Prêt pour redonner vie à votre projet ? Contactez notre équipe !</legend>
+						<legend>Prêt pour (re)donner vie à votre projet ? Contactez notre équipe !</legend>
 						
 						<!-- Name-->
 						<div class="form-group">
-							<label class="col-md-4 control-label" for="name">Nom</label>  
-							<div class="col-md-4">
+							<label class="control-label" for="name">Nom</label>  
+							<div class="">
 							<input id="name" name="textinput" type="text" placeholder="Nom" class="form-control input-md" required>
 							<span class="help-block">Entrez votre nom</span>  
 							</div>
@@ -177,8 +170,8 @@
 						
 						<!-- email-->
 						<div class="form-group">
-							<label class="col-md-4 control-label" for="email">Adresse email</label>  
-							<div class="col-md-4">
+							<label class="control-label" for="email">Adresse email</label>  
+							<div class="">
 							<input id="email" name="textinput" type="email" placeholder="Example@sim.fr" class="form-control input-md" required>
 							<span class="help-block">Entrez votre adresse email</span>  
 							</div>
@@ -186,8 +179,8 @@
 						
 						<!-- Text input-->
 						<div class="form-group">
-							<label class="col-md-4 control-label" for="input_504">Comment nous avez-vous connu ?</label>  
-							<div class="col-md-4">
+							<label class="control-label" for="input_504">Comment nous avez-vous connu ?</label>  
+							<div class="">
 							<input id="input_504" name="textinput" type="text" placeholder="Comment nous avez vous connu" class="form-control input-md" required>
 							<span class="help-block">Indiquer nous comment vous nous avez connu.</span>  
 							</div>
@@ -195,21 +188,20 @@
 						
 						<!-- Textarea -->
 						<div class="form-group">
-							<label class="col-md-4 control-label" for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
-							<div class="col-md-4">                     
+							<label class="control-label" for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
+							<div class="">                     
 							<textarea class="form-control" id="message" name="textarea" placeholder="Parlez nous de votre projet" required></textarea>
 							</div>
 						</div>
 						
-						<button class="btn btn-lg btn-rd envois" type="submit">
+						<button class="envois" type="submit">
 							Envoyer
 						</button>
-					</fieldset>
 				</form>
 			</section>
 		</main>
 			<!--Footer-->
-		<footer>
+		<footer role="contentinfo">
 			<h2>
 				La chouette agence - Agence web basée à Lyon.
 			</h2>
