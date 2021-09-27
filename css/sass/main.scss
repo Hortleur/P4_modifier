@@ -39,7 +39,7 @@ header{
 }
 
 .b-parallax{
-    background-image: url(../../img/la-chouette-agence-banniere.webp);
+    background-image: url(../../img/banniere.webp);
     min-height: 300px;
     background-attachment: fixed;
     background-size: cover;
@@ -114,7 +114,7 @@ header{
 
 
 .b-parallax1{
-    background-image: url(../../img/image-de-presentation.webp);
+    background-image: url(../../img/presentation.webp);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -166,6 +166,7 @@ img{
 /*form*/
 .form{
     text-align: center;
+    background-image: url(../../img/banniere.webp);
     form{
         padding: 10px 20px;
         background-color: $bgcol;
