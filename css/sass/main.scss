@@ -11,6 +11,8 @@ html{
 
 /* logo*/
 header{
+    display: flex;
+    justify-content: center;
     margin: 20px 20px;
     text-align: center;
 }
@@ -27,6 +29,7 @@ header{
     }
     img{
         align-self: center;
+        width: 20%;
     }
     h1{
         color: $tangerine;
@@ -57,13 +60,15 @@ header{
     }
 }
 .presentation_items{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
     text-align: center;
     padding: 0 20px;
     span{
         margin-top: 20px;
+    }
+    @include ecran(desktop){
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
     }
 }
 .item{
