@@ -243,6 +243,5 @@ form{
 /*images*/
 
 img{
-    width: 320px;
-    height: 320px;
+    aspect-ratio: attr(width)/ attr(height);
 }
