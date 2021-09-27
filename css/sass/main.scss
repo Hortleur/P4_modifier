@@ -77,7 +77,7 @@ header{
     border-bottom: 2px solid $tangerine;
     border-radius: 25px;
     div{
-        .svg-inline--fa{
+        .far, .fas{
             color: $icones;
             margin-bottom: 10px;
         }
@@ -167,6 +167,9 @@ img{
 .form{
     text-align: center;
     background-image: url(../../img/banniere.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     form{
         padding: 10px 20px;
         background-color: $bgcol;
