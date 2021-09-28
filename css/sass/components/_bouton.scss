@@ -1,6 +1,6 @@
 .bouton_contact{
     background-color: $tangerine;
-    width: 50%;
+    width: 130px;
     align-self: center;
     border-radius: 25px;
     text-decoration: none;
@@ -16,9 +16,12 @@ button{
     font-size: clamp(1.4em, 3vw, 2em);
     background-color: $tangerine;
     color: white;
-    border-radius: 10px;
-    margin-top: 10px;
+    border-radius: 15px;
+    margin: 10px 0;
     &:hover{
         cursor: pointer;
     }
+}
+.bouton_contact:hover, button:hover{
+    background-color: $dark_tangerine;
 }
