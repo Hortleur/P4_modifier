@@ -77,7 +77,6 @@ header{
 .item{
     margin-top: 40px;
     padding: 0 20px;
-    margin-left: 20px;
     border-bottom: 2px solid $tangerine;
     border-radius: 25px;
     div{
@@ -85,6 +84,9 @@ header{
             color: $icones;
             margin-bottom: 10px;
         }
+    }
+    @include ecran(desktop){
+        margin-left: 20px;
     }
 }
 .commentaire_client{
