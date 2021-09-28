@@ -10,8 +10,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch css/sass/main.scss css/main.css -w --style compressed",
-    "prefix": "postcss css/main.css --use autoprefixer -d main.min.css"
+    "sass": "sass --watch css/sass/main.scss main.css -w --style compressed",
+    "prefix": "postcss main.css --use autoprefixer -d main.min.css"
   },
   "repository": {
     "type": "git",

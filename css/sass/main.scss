@@ -4,7 +4,9 @@
 @import "components/bouton";
 @import "Utils/mixins";
 
-
+body{
+    font-family: Helvetica, sans-serif;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -19,8 +21,8 @@ header{
 }
 
 .section_logo_presentation{
-    background-image: url(../../img/banniere.webp);
-    padding: 15% 0 ;
+    background-image: url(img/banniere.webp);
+    padding: 30px 0 ;
     background-color: black;
     background-position: center;
     background-size: cover;
@@ -41,7 +43,7 @@ header{
 
 .b-parallax{
     
-    min-height: 300px;
+    min-height: 200px;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -86,6 +88,7 @@ header{
     }
 }
 .commentaire_client{
+    width: 40%;
     margin: 40px 20px 0 20px;
     text-align: center;
     border: 2px dashed $icones;
@@ -93,6 +96,7 @@ header{
     border-bottom-right-radius: 25px;
     p{
         margin: 10px;
+        font-style: italic;
     }
     span{
         margin: 10px;
@@ -116,7 +120,7 @@ header{
 
 
 .b-parallax1{
-    background-image: url(../../img/presentation.webp);
+    background-image: url(img/presentation.webp);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -168,7 +172,7 @@ img{
 /*form*/
 .form{
     text-align: center;
-    background-image: url(../../img/banniere.webp);
+    background-image: url(img/banniere.webp);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
