@@ -16,7 +16,7 @@ header{
     margin: 20px 20px;
     text-align: center;
     img{
-        max-width: 320px;
+        width: clamp(360px, 25vw, 640px);
     }
 }
 
@@ -32,7 +32,7 @@ header{
     }
     img{
         align-self: center;
-        width: 150px;
+        width: clamp(150px, 10vw, 600px);
     }
     h1{
         color: $tangerine;
@@ -58,25 +58,20 @@ header{
     h2{
         text-align: center;
     }
-    @include ecran(tablette){
-        margin: 0 20%;
-    }
 }
 .presentation_items{
     text-align: center;
-    padding: 0 20px;
     span{
         margin-top: 20px;
     }
     @include ecran(desktop){
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 }
 .item{
     margin-top: 40px;
-    padding: 0 20px;
     border-bottom: 2px solid $tangerine;
     border-radius: 25px;
     div{
@@ -90,7 +85,7 @@ header{
     }
 }
 .commentaire_client{
-    width: 320px;
+
     margin: 40px 20px 0 20px;
     text-align: center;
     border: 2px dashed $icones;
@@ -129,10 +124,7 @@ header{
 }
 
 /* images */
-img{
-    height: auto;
-    width: 100%;
-}
+
 /*portfolio*/
 .portfolio{
     text-align: center;
@@ -156,19 +148,21 @@ img{
     }
 }
 .bloc_cards{
-    @include ecran(desktop){
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        flex-shrink: 0;
-        div{
-            width: 400px;
-        }
-    }
     @include ecran(tablette){
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
+        div{
+            width: clamp(150px, 25vw, 250px);
+        }
+    }
+    @include ecran(desktop){
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        div{
+            width: clamp(250px, 25vw, 400px);
+        }
     }
 }
 
@@ -182,15 +176,16 @@ img{
     form{
         padding: 10px 20px;
         background-color: $bgcol;
-        legend{
-            font-weight: bold;
-        }
+        color: $icones;
         label{
             font-weight: bold;
             margin-top: 10px;
         }
         input, textarea{
             font-family: Helvetica, sans-serif;
+        }
+        .adresse{
+            margin-top: 20px;
         }
     }   
 }
@@ -229,6 +224,7 @@ footer{
         }
     }
     .partenaires{
+        margin-top: 20px;
         h3{
             color: white;
         }

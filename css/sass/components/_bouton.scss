@@ -3,6 +3,14 @@
     margin-top: 20px;
     color: white !important;
 }
-.bouton_contact:hover, button:hover{
+.btn:hover, button:hover{
     background-color: $dark_tangerine;
+}
+.btn-rd {
+    border-radius: 40px;
+}
+.btn{
+    width: 150px;
+    align-self: center;
+    font-weight: 700;
 }
