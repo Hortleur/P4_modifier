@@ -190,7 +190,6 @@ img{
             margin-top: 10px;
         }
         input, textarea{
-            line-height: 3;
             font-family: Helvetica, sans-serif;
         }
     }   
@@ -198,9 +197,6 @@ img{
 .form-group{
     display: flex;
     flex-flow: column nowrap;
-    input, textarea{
-        border-radius: 5px;
-    }
     div{
         display: flex;
         flex-flow: column wrap;

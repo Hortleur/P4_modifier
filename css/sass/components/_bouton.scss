@@ -1,26 +1,14 @@
 .bouton_contact{
-    background-color: $tangerine;
     width: 130px;
     align-self: center;
-    border-radius: 25px;
-    text-decoration: none;
     font-weight: bold;
-    color: white;
-    text-align: center;
     font-size: 1.4em;
-    margin: 10px 0;
     padding: 10px 0;
 }   
-button{
-    text-align: center;
-    font-size: clamp(1.4em, 3vw, 2em);
+.btn-atomic-tangerine{
     background-color: $tangerine;
-    color: white;
-    border-radius: 15px;
-    margin: 10px 0;
-    &:hover{
-        cursor: pointer;
-    }
+    margin-top: 20px;
+    color: white !important;
 }
 .bouton_contact:hover, button:hover{
     background-color: $dark_tangerine;
